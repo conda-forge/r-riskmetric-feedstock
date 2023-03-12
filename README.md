@@ -1,11 +1,11 @@
-About r-riskmetric
-==================
+About r-riskmetric-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-riskmetric-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pharmar.github.io/riskmetric/, https://github.com/pharmaR/riskmetric
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-riskmetric-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilities for assessing R packages against a number of metrics to help quantify their robustness.
 
