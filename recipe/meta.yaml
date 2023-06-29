@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/riskmetric_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/riskmetric/riskmetric_{{ version }}.tar.gz
-  sha256: 02a2f542a97d4c62481ecd3c4a1c0b684c3864b74ea552974672727f0d61e0a0
+  sha256: 88ab48ea593a128d01056ce9af2b70249c855aa009aff013966659d92178a814
 
 build:
   merge_build_host: true  # [win]
