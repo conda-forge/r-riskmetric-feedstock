@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/riskmetric_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/riskmetric/riskmetric_{{ version }}.tar.gz
-  sha256: 4f7be25f605b530f3b08704b444b548bb488600ffc40925f251ff569ad04ec03
+  sha256: 5a5bc6732b3ca99a9fd40cc7cbd614d9952dd483c60e4155b18d5f2f2075ccdd
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
